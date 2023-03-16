@@ -16,12 +16,13 @@ body{
     color: white !important;
    
 }
-.img{
-    font-size: larger;
-    padding: 40px;
-    
+.eimg{
+    font-size: medium;
+    padding: 35px;
+    color:aqua;
+
 }
-img:hover{
+.eimg:hover{
     background-color: goldenrod;
 }
 .nav-item:hover{
@@ -34,27 +35,37 @@ img:hover{
     margin-top: 4px;
     font-size: 20px !important;
     font-weight: bold;
-    color: gray !important;
+    color: black !important;
+    border: 1px solid black !important;
 }
 
 .dropdown-menu{
-    background-color: gray !important;
-    width: 500px;
-    height: 400px;
-    
+    background-color:aqua !important;
+   display: none;
+   position: absolute;
+   width: 500px;
+   height: 400px;
+   z-index: 1;
+}
+.dropdown-menu a:hover{
+   
+    color: gold;
+}
+.right-menu:hover .dropdown-menu{
+    display: block;
 }
  .nav-link{
     border: 1px solid black !important;
     border-radius: 6px;
     padding: 10px !important;
-
+   color: black !important;
 } 
-
-
 .nav-link:hover{
     background-color:  gold !important;
-    
 }
 .dropdown-item{
-    color: gold;
+  background-color: black;
+}
+.btn-secondary:hover{
+    background-color:  gold !important;
 }
