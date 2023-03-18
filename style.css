@@ -58,3 +58,10 @@ img:hover{
 .dropdown-item{
     color: gold;
 }
+.dropdown{
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.dropdown:hover{
+    background-color: gold;
+}
