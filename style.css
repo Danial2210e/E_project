@@ -65,6 +65,7 @@ body{
     background-color:  gold !important;
 }
 .dropdown-item{
+<<<<<<< HEAD
   background-color: black;
 }
 .btn-secondary:hover{
@@ -73,4 +74,14 @@ body{
 .fa-duotone{
     width: 200px !important;
     height: 200px;
+=======
+    color: gold;
+}
+.dropdown{
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.dropdown:hover{
+    background-color: gold;
+>>>>>>> fe7856d111bf8efbe27b18c6344c96c6ca6b392a
 }
