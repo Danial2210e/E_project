@@ -17,9 +17,10 @@ body{
    
 }
 .eimg{
-    font-size: medium;
+    font-size: large;
     padding: 35px;
-    color:aqua;
+    color:black;
+   
 
 }
 .eimg:hover{
@@ -68,4 +69,8 @@ body{
 }
 .btn-secondary:hover{
     background-color:  gold !important;
+}
+.fa-duotone{
+    width: 200px !important;
+    height: 200px;
 }
