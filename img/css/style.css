@@ -2,7 +2,7 @@
     background-color: black !important; 
 }
 body{
-    background-color: black !important;
+    background-color: white !important;
 }
 .nav1{
     height: 30px;
@@ -65,7 +65,7 @@ body{
     background-color:  gold !important;
 }
 .dropdown-item{
-<<<<<<< HEAD
+
   background-color: black;
 }
 .btn-secondary:hover{
@@ -74,7 +74,7 @@ body{
 .fa-duotone{
     width: 200px !important;
     height: 200px;
-=======
+
     color: gold;
 }
 .dropdown{
@@ -83,5 +83,56 @@ body{
 }
 .dropdown:hover{
     background-color: gold;
->>>>>>> fe7856d111bf8efbe27b18c6344c96c6ca6b392a
+
 }
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    backdrop-filter: blur (10px);
+    flex: wrap;
+  }
+  
+ 
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    display: block;
+    padding: 20px;
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: black;
+    color: lightgray;
+   
+  }
+  
+  input[type="submit"]
+   {
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover
+   {
+    background-color: goldenrod;
+  }
+  .middle{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  .middle:hover{
+    background-color: goldenrod;
+    padding: 20px;
+  }
+  
