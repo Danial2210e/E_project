@@ -23,7 +23,7 @@ body{
    
 }
 .eimg:hover{
-    background-color: goldenrod;
+  background-color: goldenrod;
     border: 1px solid;
 }
 .nav-item:hover{
@@ -31,38 +31,38 @@ body{
   color: black;
 }
 .btn-secondary{
-    background-color: transparent !important;
-    border: 0px  !important;
-    margin-top: 4px;
-    font-size: 20px !important;
-    font-weight: bold;
-    color: black !important;
-    border: 1px solid black !important;
+  background-color: transparent !important;
+  border: 1px solid black !important;
+  margin-top: 6px;
+  font-size: 20px !important;
+  font-weight: bold;
+  color: black !important;
+  border-radius: 0px;
 }
 
 .dropdown-menu{
-    background-color:lightgray !important;
-   display: none;
-   position: absolute;
-   width: 500px;
-   height: 400px;
-   z-index: 1;
+  background-color:lightgray !important;
+  display: none;
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  z-index: 1;
 }
 .dropdown-menu a:hover{
    
-    color: gold;
+  color: gold;
 }
 .right-menu:hover .dropdown-menu{
     display: block;
 }
  .nav-link{
-    border: 1px solid black !important;
-    border-radius: 6px;
+  border: 1px solid black !important;
+  border-radius: 0px;
     padding: 10px !important;
    color: black !important;
 } 
 .nav-link:hover{
-    background-color:  gold !important;
+  background-color:  gold !important;
 }
 .dropdown-item{
 
@@ -78,8 +78,8 @@ body{
     color: gold;
 }
 .dropdown{
-    border: 1px solid black;
-    border-radius: 6px;
+     border: 1px solid black; 
+    
 }
 .dropdown:hover{
     background-color: gold;
@@ -92,7 +92,7 @@ form {
     backdrop-filter: blur (10px);
     flex: wrap;
   }
-  
+ 
  
   
   input[type="text"],
@@ -119,17 +119,20 @@ form {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    margin-left: 180px;
   }
   
   input[type="submit"]:hover
    {
     background-color: goldenrod;
+    
   }
   .middle{
     text-align: center;
     background-color: black;
     color: white;
     padding: 20px;
+    
   }
   .middle:hover{
     background-color: goldenrod;
@@ -144,13 +147,35 @@ form {
    width: 250px;
     height: 250px;
   }
-  .card{
+  .card1{
     width: 250px;
     background: lightgrey;
     text-align: center;
     float: left;
 
   }
+  .card2{
+    width: 250px;
+    background: lightgrey;
+    text-align: center;
+    float: left;
+
+  }
+  .card3{
+    width: 250px;
+    background: lightgrey;
+    text-align: center;
+    float: left;
+
+  }
+  .card4{
+    width: 250px;
+    background: lightgrey;
+    text-align: center;
+    float: left;
+
+  }
+  
   .card-title{
     color: black;
     text-align: center;
@@ -174,3 +199,10 @@ body{
     color: goldenrod;
   }
 
+.btn{
+  border: 0px !important;
+  border-radius: 6px !important ;
+}
+.btn-secondary{
+  border-radius: ;
+}
